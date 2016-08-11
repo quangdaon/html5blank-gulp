@@ -1,0 +1,20 @@
+{
+  "name": "blank_wp",
+  "version": "1.0.0",
+  "description": "Blank WP Theme with Gulp Support",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Graydient Creative",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
