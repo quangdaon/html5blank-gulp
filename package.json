@@ -17,5 +17,18 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0"
-  }
+  },
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangdaon/html5blank-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quangdaon/html5blank-gulp/issues"
+  },
+  "homepage": "https://github.com/quangdaon/html5blank-gulp#readme"
 }
