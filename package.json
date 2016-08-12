@@ -4,7 +4,8 @@
   "description": "Blank WP Theme with Gulp Support",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "repo": "start https://github.com/quangdaon/html5blank-gulp#readme"
   },
   "author": "Graydient Creative",
   "license": "ISC",
