@@ -1,41 +1,38 @@
-/*------------------------------------*\
-	RESPONSIVE
-\*------------------------------------*/
-//$mq-mobileOnly: "only screen and (max-width:768px)";
+// RESPONSIVE
+// max-width:768px
 @mixin mq-mobileOnly {
 	@media only screen and (max-width:47em){
 		@content;
 	}
 }
-//$mq-smallScreen: "only screen and (min-width:480px)";
+// min-width:480px
 @mixin mq-smallScreen {
 	@media only screen and (min-width:30em){
 		@content;
 	}
 }
-//$mq-mediumScreen: "only screen and (min-width:768px)";
+// min-width:768px
 @mixin mq-mediumScreen {
 	@media only screen and (min-width:48em){
 		@content;
 	}
 }
-//$mq-largeScreen: "only screen and (min-width:1020px)";
+// min-width:1020px
 @mixin mq-largeScreen {
 	@media only screen and (min-width:63.75em){
 		@content;
 	}
 }
-//$mq-xLargeScreen: "only screen and (min-width:1200px)";
+// min-width:1200px
 @mixin mq-xLargeScreen {
 	@media only screen and (min-width:75em){
 		@content;
 	}
 }
 
-/*** USAGE
-@include mq-size {
-	.class {
-		prop: value;
-	}
-}
-*/
+// /*** USAGE ***/
+// @include mq-size {
+// 	.class {
+// 		prop: value;
+// 	}
+// }

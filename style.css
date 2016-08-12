@@ -1,6 +1,27 @@
-/***
- * WordPress needs this file to exist.
- * However, this projcet is set up to use Gulp.
- * To make changes please enable gulp and navigate to styles/sass.
- * k, thx bye
- */
+/*
+	Theme Name: HTML5 Blank
+	Theme URI: 
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.0.0
+	Author: Graydient Creative
+	Author URI: http://graydientcreative.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+	*/
+
+/***************************************************************************************************\
+ *************** THIS FILE IS NOT RENDERED ON THE SITE. DO NOT PUT ANYTHING IN HERE. ***************
+\***************************************************************************************************/
+
+/**************************************************** NOTES ****************************************\
+ * This project is set up to use SASS in conjunction with gulp.                                    *
+ * Here's how to change the default styles:                                                        *
+ * 1. Open a terminal/command prompt and type: 'cd \path\to\wordpress\wp-content\themes\theme-name'*
+ * 2. Type 'npm start' or 'gulp' (Both do the same thing)                                          *
+ * 3. Navigate to '\path\to\wordpress\wp-content\themes\theme-name\styles\sass'                    *
+ * 4. Edit the files there :)                                                                      *
+ *                                                                                                 *
+ * For JS, do the same. The files are located in 'theme-name\scripts\src'                          *
+\***************************************************************************************************/

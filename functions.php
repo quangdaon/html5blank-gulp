@@ -108,7 +108,7 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('html5blank', get_template_directory_uri() . 'styles/css/main.css', array(), '1.0', 'all');
+    wp_register_style('html5blank', get_template_directory_uri() . '/styles/css/main.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
 }
 
@@ -162,22 +162,11 @@ function add_slug_to_body_class($classes)
 // If Dynamic Sidebar Exists
 if (function_exists('register_sidebar'))
 {
-    // Define Sidebar Widget Area 1
+    // Define Sidebar Widget Area
     register_sidebar(array(
-        'name' => __('Widget Area 1', 'html5blank'),
-        'description' => __('Description for this widget-area...', 'html5blank'),
+        'name' => __('Sidebar Widgets', 'html5blank'),
+        'description' => __('Widgets on the sidebar...', 'html5blank'),
         'id' => 'widget-area-1',
-        'before_widget' => '<div id="%1$s" class="%2$s">',
-        'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
-    ));
-
-    // Define Sidebar Widget Area 2
-    register_sidebar(array(
-        'name' => __('Widget Area 2', 'html5blank'),
-        'description' => __('Description for this widget-area...', 'html5blank'),
-        'id' => 'widget-area-2',
         'before_widget' => '<div id="%1$s" class="%2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',
@@ -437,16 +426,6 @@ function html5_shortcode_demo($atts, $content = null)
 function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
 {
     return '<h2>' . $content . '</h2>';
-}
-
-add_action( 'wp_enqueue_scripts', 'enqueue_theme_css' );
-
-function enqueue_theme_css()
-{
-    wp_enqueue_style(
-        'default',
-        get_template_directory_uri() . '/styles/css/main.css'
-    );
 }
 
 ?>

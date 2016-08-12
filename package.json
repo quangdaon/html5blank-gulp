@@ -4,11 +4,12 @@
   "description": "Blank WP Theme with Gulp Support",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp"
+    "start": "gulp"
   },
   "author": "Graydient Creative",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
