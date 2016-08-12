@@ -1,5 +1,5 @@
 {
-  "name": "blank_wp",
+  "name": "html5blank-gulp",
   "version": "1.0.0",
   "description": "Blank WP Theme with Gulp Support",
   "main": "gulpfile.js",
