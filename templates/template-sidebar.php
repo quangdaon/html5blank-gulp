@@ -1,4 +1,4 @@
-<?php /* Template Name: Demo Page Template */ get_header(); ?>
+<?php /* Template Name: Sidebar Template */ get_header(); ?>
 
 	<main role="main">
 		<!-- section -->
@@ -11,13 +11,23 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+				<!-- post thumbnail -->
+				<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
+				<div class="featured-img">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+						<?php the_post_thumbnail(); // Fullsize image for the single post ?>
+					</a>
+				</div>
+				<?php endif; ?>
+				<!-- /post thumbnail -->
+
 				<?php the_content(); ?>
 
 				<?php comments_template( '', true ); // Remove if you don't want comments ?>
 
-				<br class="clear">
-
 				<?php edit_post_link(); ?>
+
+				<br class="clear">
 
 			</article>
 			<!-- /article -->
