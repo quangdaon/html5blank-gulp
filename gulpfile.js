@@ -6,6 +6,7 @@ var browserSyncOptions = {
 var browserSyncWatchFiles = [
 	'./styles/css/*.css',
 	'./js/dist/*.min.js',
+	'./templates/*.php',
 	'./*.php'
 ];
 

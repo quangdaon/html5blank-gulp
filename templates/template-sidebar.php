@@ -14,9 +14,10 @@
 				<!-- post thumbnail -->
 				<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<div class="featured-img">
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+					<!-- <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> --> <!-- UNCOMMENT FOR LINK TO ARTICLE -->
+					<!-- <a href="<?php the_post_thumbnail_url(); ?>" title="<?php the_title(); ?>"> --> <!-- UNCOMMENT FOR LINK TO IMAGE -->
 						<?php the_post_thumbnail(); // Fullsize image for the single post ?>
-					</a>
+					<!-- </a> -->
 				</div>
 				<?php endif; ?>
 				<!-- /post thumbnail -->
